@@ -10,9 +10,9 @@
 #end
  
  def valid_move?( board, index )
-  position_int = position.to_i
-  position_ary = position_int - 1
-  if !(position_taken?( board, position_ary )) && position_ary.between?( 0, 8 )
+  index_int = index.to_i
+  index_ary = index_int - 1
+  if !(position_taken?( board, index_ary )) && index_ary.between?( 0, 8 )
     true
   else
     false
