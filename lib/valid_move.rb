@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-    if index.to_i.between?(1, 9)
+    if index.to_i.between?(0, 8)
 		  position_taken?(board, index)
 		return true
   else  
@@ -21,5 +21,5 @@ def position_taken?(board, index)
 end
 
 
-# between?(1, 9)
-# may need this
+# between?(1, 9)? or between?(0, 8)? are we automatically assuming the conversion has been done? is that what the instructions are saying?
+# need to review this lesson
