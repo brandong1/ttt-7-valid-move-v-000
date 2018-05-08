@@ -22,5 +22,3 @@ end
 
 
 
-# between?(1, 9)? or between?(0, 8)? are we automatically assuming the conversion has been done? is that what the instructions are saying?
-# need to review this lesson
