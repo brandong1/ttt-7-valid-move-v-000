@@ -3,7 +3,7 @@ def valid_move?(board, index)
     if index.to_i.between?(1, 9)
 		  position_taken?(board, index)
 		return true
-	elseif !index.to_i.between?(1, 9)
+	elseif index.to_i.between?(!1, 9)
 		return false
 	end
  
