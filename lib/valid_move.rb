@@ -4,7 +4,7 @@ def valid_move?(board, index)
      # Need to know why if this is (1, 9) I get two errors vs. one error with (0, 8)?
 		  position_taken?(board, index)
 		true
-  else
+  else if index.to_i.
 		false
 	end
  
