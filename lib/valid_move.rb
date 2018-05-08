@@ -11,3 +11,7 @@ def position_taken?(board, index)
     true
   end
 end
+
+
+#between?(0, 8 method
+# 
