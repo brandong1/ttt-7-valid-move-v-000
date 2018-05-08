@@ -21,3 +21,4 @@ def position_taken?(board, index)
 end
 
 
+# Added " && !position_taken?(board, index)" to the code and cleared the final
