@@ -9,15 +9,13 @@
  
 #end
  
- def valid_move?( board, index )
-  index_int = index.to_i
-  index_ary = index_int - 1
-  if !(position_taken?( board, index_ary )) && index_ary.between?( 0, 8 )
-    true
-  else
-    false
-  end
-end   
+def valid_move?(board, index)
++  if position_taken?(board, index) == false && index.to_i.between?(1, 9)
++    true
++  else
++    false
++  end
++end
   
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
