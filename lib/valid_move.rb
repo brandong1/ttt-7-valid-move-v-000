@@ -21,4 +21,5 @@ def position_taken?(board, index)
 end
 
 
-# Added " && !position_taken?(board, index)" to the code and cleared the final 
+# Added " && !position_taken?(board, index)" to the code and cleared the final 'returns nil or false for an occupied position' error.
+# I'm still not 100% why that worked..
